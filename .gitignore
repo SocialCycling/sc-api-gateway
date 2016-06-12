@@ -1,0 +1,10 @@
+target/
+*.war
+
+logs/
+config/
+
+*.iml
+.idea/
+
+.vertx

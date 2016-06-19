@@ -8,7 +8,7 @@ import io.vertx.ext.web.Router;
 import io.vertx.ext.web.RoutingContext;
 import io.vertx.ext.web.handler.JWTAuthHandler;
 
-public class Server extends AbstractVerticle {
+public class HttpServerVerticle extends AbstractVerticle {
 
     @Override
     public void start(Future<Void> startFuture) {

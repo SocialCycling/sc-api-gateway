@@ -2,7 +2,7 @@ target/
 *.war
 
 logs/
-config/
+config/config.json
 
 *.iml
 .idea/

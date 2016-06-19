@@ -10,8 +10,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <vertx.version>3.2.1</vertx.version>
-    <main.verticle>net.socialcycling.apigateway.Server</main.verticle>
+    <vertx.version>3.3.0.CR2</vertx.version>
+    <main.verticle>net.socialcycling.apigateway.HttpServerVerticle</main.verticle>
   </properties>
 
   <dependencies>
@@ -31,7 +31,7 @@
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-auth-jwt</artifactId>
-      <version>3.3.0-SNAPSHOT</version>
+      <version>${vertx.version}</version>
     </dependency>
 
   </dependencies>
